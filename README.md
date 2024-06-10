@@ -41,3 +41,60 @@ Pseudocode
                          condition = Sunny,......)
                          (for entire week obviously....)
 5. End
+
+
+
+
+
+
+
+
+
+
+Explanation and screenshots of Weather Application (the screenshots dont show up in the readMe file but i will attach the word document as well)
+
+
+Aidan Gracie
+St10457561
+
+Explanation of my app with Screenshots
+
+We were tasked with creating a Kotlin Application that uses arrays, loops and screen navigation to fulfil a company’s request. The app was supposed to have a minimum of 3 screens, but my application has 9 screens, you will understand when you see the screenshots. 3 screens are shown below but the other 6 are the same as the screenshot on the right just with Tuesday to Sundays information.  
+       
+
+After the first screen one has the option to proceed to the next page or close the application all together. Once the user has clicked proceed. This code will take them to the next page.
+ 
+This code takes the user from the welcoming splash screen to the next page displaying the weeks maximums and minimums, as well as the average temperature for the week. Here is the code that calculates the average temp. Shown below. 
+ 
+The average temperature for the week is 23.9 degrees. 
+Here is the screenshot of the actual applications interface where the average is calculated
+ 
+
+
+
+There is also a clear button. The code for that is shown below
+ 
+
+We were tasked with using arrays to store the information that we would be using, a screenshot of all that information is shown below
+ 
+
+
+
+
+As well as all of the above each page has a back button, that will take you back to the previous page. Every one of the detailed screens has a back button that will take you back to the page where all of the arrays are shown, where all the min and max temps are shown. 
+  
+
+Here are the full screenshots of all the pages
+ 
+ 
+
+
+
+
+
+
+
+
+(I wont show all 7 screenshots of the different days but you are more than welcome to check)
+
+
