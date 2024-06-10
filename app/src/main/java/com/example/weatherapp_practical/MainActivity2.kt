@@ -1,13 +1,14 @@
 package com.example.weatherapp_practical
 
+import android.annotation.SuppressLint
 import android.content.Intent
-import android.health.connect.datatypes.units.Temperature
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 
 class MainActivity2 : AppCompatActivity() {
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main2)
@@ -54,24 +55,49 @@ class MainActivity2 : AppCompatActivity() {
             startActivity(intent)
         }
 
-        var buttonCal = findViewById<Button>(R.id.buttonCal)
-        buttonCal.setOnClickListener {
-            val textView1 = findViewById<TextView>(R.id.textView1)
-            textView1.text = "23.9"
+        var buttonBack10 = findViewById<Button>(R.id.buttonBack10)
+        buttonBack10.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
 
-            var numbers = arrayOf(26, 27, 21, 32, 26, 12, 23)
-            var TempArrayMin = arrayOf(13, 12, 10, 19, 13, 6, 13)
-            var size = 7
 
-            var sum = 0.0
-            for (num in numbers) {
-                sum += num
+
+
+
+            var buttonCal = findViewById<Button>(R.id.buttonCal)
+            buttonCal.setOnClickListener {
+                var TextView69 = findViewById<TextView>(R.id.TextView69)
+                TextView69.text = "23.9"
+
+                var numbers = arrayOf(26, 27, 21, 32, 26, 12, 23)
+                var TempArrayMin = arrayOf(13, 12, 10, 19, 13, 6, 13)
+                var size = 7
+
+                var sum = 167
+                for (num in numbers) {
+                    sum += num
+                }
+                val average = sum / numbers.size
+
+               ("the average is:$average")
+
+                var Clearbutton = findViewById<Button>(R.id.Clearbutton)
+                Clearbutton.setOnClickListener { TextView69.text }
+
+
+
+
+
             }
-            val average = sum / numbers.size
-
-            println("the average is:$average")
-
-
         }
     }
 }
+
+
+
+
+
+
+
+
+
