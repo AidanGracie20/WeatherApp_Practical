@@ -1,6 +1,8 @@
 Aidan Gracie
 St10457561
 
+Link to GitHub - https://github.com/AidanGracie20/WeatherApp_Practical.git
+
 1.Pseudocode followed by 2. Explanation followed by the 3. Screenshots
 
 
