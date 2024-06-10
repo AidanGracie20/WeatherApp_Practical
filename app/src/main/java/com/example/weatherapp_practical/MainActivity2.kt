@@ -61,6 +61,7 @@ class MainActivity2 : AppCompatActivity() {
 
             var numbers = arrayOf(26, 27, 21, 32, 26, 12, 23)
             var TempArrayMin = arrayOf(13, 12, 10, 19, 13, 6, 13)
+            var size = 7
 
             var sum = 0.0
             for (num in numbers) {
