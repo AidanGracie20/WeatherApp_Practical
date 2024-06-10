@@ -241,7 +241,6 @@
         android:id="@+id/TextView69"
         android:layout_width="71dp"
         android:layout_height="56dp"
-        android:text="23.9"
         android:textAlignment="center"
         android:textColor="#040303"
         android:textSize="20sp"

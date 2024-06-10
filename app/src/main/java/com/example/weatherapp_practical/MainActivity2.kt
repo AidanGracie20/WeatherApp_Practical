@@ -69,20 +69,23 @@ class MainActivity2 : AppCompatActivity() {
                 var TextView69 = findViewById<TextView>(R.id.TextView69)
                 TextView69.text = "23.9"
 
-                var numbers = arrayOf(26, 27, 21, 32, 26, 12, 23)
-                var TempArrayMin = arrayOf(13, 12, 10, 19, 13, 6, 13)
-                var size = 7
+                val TempArrayMax = arrayOf(26, 27, 21, 32, 26, 12, 23)
+                val TempArrayMin = arrayOf(13, 12, 10, 19, 13, 6, 13)
+                var ConditionArray = arrayOf("Sunny", "Sunny", "Cold", "Sunny", "Sunny", "Rain", "Cold")
 
+                val size = 7
                 var sum = 167
-                for (num in numbers) {
+                for (num in TempArrayMax) {
                     sum += num
                 }
-                val average = sum / numbers.size
+                val average = sum / TempArrayMax.size
 
-               ("the average is:$average")
+               println("$average")
 
                 var Clearbutton = findViewById<Button>(R.id.Clearbutton)
                 Clearbutton.setOnClickListener { TextView69.text }
+
+
 
 
 
