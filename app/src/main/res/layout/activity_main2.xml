@@ -214,7 +214,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Average Temperature"
+        android:text="Average Temperature = "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/buttonTh"
         app:layout_constraintHorizontal_bias="0.015"
@@ -234,5 +234,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="71dp"
+        android:layout_height="56dp"
+        android:text="23.9 degrees"
+        android:textAlignment="center"
+        android:textColor="#040303"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="686dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
