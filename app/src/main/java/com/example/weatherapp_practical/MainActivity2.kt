@@ -59,8 +59,16 @@ class MainActivity2 : AppCompatActivity() {
             val textView1 = findViewById<TextView>(R.id.textView1)
             textView1.text = "23.9"
 
-            var TempArrayMax = arrayOf(26, 27, 21, 32, 26, 12, 23)
+            var numbers = arrayOf(26, 27, 21, 32, 26, 12, 23)
             var TempArrayMin = arrayOf(13, 12, 10, 19, 13, 6, 13)
+
+            var sum = 0.0
+            for (num in numbers) {
+                sum += num
+            }
+            val average = sum / numbers.size
+
+            println("the average is:$average")
 
 
         }
